@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EAD024628AFE887003AE3FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD024428AFE887003AE3FD /* HomeViewController.swift */; };
+		8EAD024728AFE887003AE3FD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD024528AFE887003AE3FD /* HomeViewController.xib */; };
 		BF2EB302288AED3E0054E663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EB301288AED3E0054E663 /* AppDelegate.swift */; };
 		BF2EB304288AED3E0054E663 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EB303288AED3E0054E663 /* SceneDelegate.swift */; };
 		BF2EB306288AED3E0054E663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2EB305288AED3E0054E663 /* ViewController.swift */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E8873AA28A8B6CA004FBD19 /* Izlude Group 7 Storyboard Quiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Izlude Group 7 Storyboard Quiz.entitlements"; sourceTree = "<group>"; };
+		8EAD024428AFE887003AE3FD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8EAD024528AFE887003AE3FD /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		BF2EB2FE288AED3E0054E663 /* Izlude Group 7 Storyboard Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Izlude Group 7 Storyboard Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2EB301288AED3E0054E663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF2EB303288AED3E0054E663 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +61,12 @@
 		BF2EB300288AED3E0054E663 /* Izlude Group 7 Storyboard Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				8E8873AA28A8B6CA004FBD19 /* Izlude Group 7 Storyboard Quiz.entitlements */,
 				BF2EB301288AED3E0054E663 /* AppDelegate.swift */,
 				BF2EB303288AED3E0054E663 /* SceneDelegate.swift */,
 				BF2EB305288AED3E0054E663 /* ViewController.swift */,
+				8EAD024428AFE887003AE3FD /* HomeViewController.swift */,
+				8EAD024528AFE887003AE3FD /* HomeViewController.xib */,
 				BF2EB307288AED3E0054E663 /* Main.storyboard */,
 				BF2EB30A288AED3E0054E663 /* Assets.xcassets */,
 				BF2EB30C288AED3E0054E663 /* LaunchScreen.storyboard */,
@@ -97,12 +105,12 @@
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					BF2EB2FD288AED3E0054E663 = {
-						CreatedOnToolsVersion = 13.3.1;
+						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
 			buildConfigurationList = BF2EB2F9288AED3E0054E663 /* Build configuration list for PBXProject "Izlude Group 7 Storyboard Quiz" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,6 +135,7 @@
 				BF2EB30E288AED3E0054E663 /* LaunchScreen.storyboard in Resources */,
 				BF2EB30B288AED3E0054E663 /* Assets.xcassets in Resources */,
 				BF2EB309288AED3E0054E663 /* Main.storyboard in Resources */,
+				8EAD024728AFE887003AE3FD /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +149,7 @@
 				BF2EB306288AED3E0054E663 /* ViewController.swift in Sources */,
 				BF2EB302288AED3E0054E663 /* AppDelegate.swift in Sources */,
 				BF2EB304288AED3E0054E663 /* SceneDelegate.swift in Sources */,
+				8EAD024628AFE887003AE3FD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Izlude Group 7 Storyboard Quiz/Izlude Group 7 Storyboard Quiz.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X7PX2RYRJL;
@@ -302,6 +313,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.funios.Izlude-Group-7-Storyboard-Quiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Izlude Group 7 Storyboard Quiz/Izlude Group 7 Storyboard Quiz.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X7PX2RYRJL;
@@ -331,6 +344,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.funios.Izlude-Group-7-Storyboard-Quiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
